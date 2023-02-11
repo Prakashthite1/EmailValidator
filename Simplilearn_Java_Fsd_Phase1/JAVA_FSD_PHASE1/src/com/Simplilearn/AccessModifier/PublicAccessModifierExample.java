@@ -17,10 +17,11 @@ public static void main(String[] args)
 	
 	System.out.println("The addition of value1 and value2 :: " + (value1+value2));
 	
+	System.out.println("Calling multiplayNumbers funtion within package with same class....");
 	//Object Creation Using Default Constructor
 	PublicAccessModifierExample psme = new PublicAccessModifierExample();
-		//calling the object using class psme
-		psme.MultiplayNumbers();
+	//calling the object using class psme
+	psme.MultiplayNumbers();
 		
 	
 	
